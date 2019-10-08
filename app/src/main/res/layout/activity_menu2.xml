@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tsukuyomi"
+    tools:context=".MenuActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnsiguiente"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="itachi"
+            android:text="@string/itachi"
+            android:textColor="#FCF5E9F5"
+            android:textColorLink="#CEE00C0C" />
+
+        <Button
+            android:id="@+id/btnobito"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="obito"
+            android:text="@string/obito" />
+
+        <Button
+            android:id="@+id/btnyahiko"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="yahiko"
+            android:text="@string/yahiko" />
+
+        <Button
+            android:id="@+id/btndeidara"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="deidara"
+            android:text="@string/deidara" />
+
+        <Button
+            android:id="@+id/btnsasori"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="sasori"
+            android:text="@string/sasori" />
+
+        <Button
+            android:id="@+id/btnnagato"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="nagato"
+            android:text="@string/nagato" />
+
+        <Button
+            android:id="@+id/btnkonan"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="konan"
+            android:text="@string/konan" />
+
+        <Button
+            android:id="@+id/btnhidan"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="hidan"
+            android:text="@string/hidan" />
+
+        <Button
+            android:id="@+id/btnkisame"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="kisame"
+            android:text="@string/kisame" />
+
+        <Button
+            android:id="@+id/btnkakuzu"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="kakuzu"
+            android:text="@string/kakuzu" />
+
+        <Button
+            android:id="@+id/btnzetsu"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="zetsu"
+            android:text="@string/zetsu" />
+
+        <Button
+            android:id="@+id/btndesarrollador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="desarrollador"
+            android:text="@string/desarrollador" />
+    </LinearLayout>
+</RelativeLayout>
